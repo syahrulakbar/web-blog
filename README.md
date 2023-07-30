@@ -2,7 +2,26 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, add .env file:
+
+```bash
+# API
+API_URL=http://localhost:3000/api
+
+
+# Google Auth
+GOOGLE_CLIENT_ID=<your google client id>
+GOOGLE_CLIENT_SECRET=<your google client id>
+
+# NEXT AUTH
+NEXTAUTH_SECRET="840e8e616da069150161eb34c027a32a"
+NEXTAUTH_URL="http://localhost:3000"
+
+# DATABASE
+MONGO_URI=<your remote mongodb>
+```
+
+and run locally:
 
 ```bash
 npm run dev
